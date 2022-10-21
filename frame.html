@@ -18,10 +18,26 @@
 			<a href="#">Domov</a>
 			<a href="#about">O nas</a>
 			<a href="#solution">Naša rešitev</a>
-			<a href="#donate">Doniraj</a>
+			<a href="https://www.paypal.com/donate/?hosted_button_id=T9EP9SQ867KBE" target="_blank">Doniraj</a>
 		</div>
 	</div>
 </header>
+<script>
+	document.addEventListener('scroll', () => {
+	if (document.body.scrollTop > 80) {
+	document.getElementById("frame-header").style.backgroundColor = "#909090ff";
+	} else {
+	document.getElementById("frame-header").style.backgroundColor = "#aaaaaa82";
+	}
+	});
+</script>
+<noscript>
+	<style>
+#frame-header{
+	background-color: #909090ff;
+}
+	</style>
+</noscript>
 <span id=""></span>
 <span id="home"></span>
 <span id="about"></span>

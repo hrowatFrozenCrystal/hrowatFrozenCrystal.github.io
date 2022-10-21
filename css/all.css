@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, a{
 	flex-wrap: wrap;
 	position:fixed;
 	width:100%;
+	transition: background-color 220ms ease-in-out;
 }
 #frame-selection *{
 	color:#fff;
@@ -94,4 +95,30 @@ a.text-con{
 	.flex-element {
 		flex: 100%;
 	}
+}
+.button {
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-right:30px;
+    padding-left:30px;
+    margin:auto;
+    transition: background-color 25ms linear;
+}
+.bbtn {
+    background-color:#0274be;
+}
+.obtn {
+    background-color:#FFA600B3;
+}
+.gbtn {
+    background-color:#00E160;
+}
+a:hover .bbtn {
+    background-color:#0381d2;
+}
+a:hover .obtn {
+    background-color:#FFA600D4;
+}
+a:hover .gbtn {
+    background-color:#01F76A;
 }

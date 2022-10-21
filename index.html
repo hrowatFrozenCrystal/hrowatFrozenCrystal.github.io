@@ -18,10 +18,26 @@
 			<a href="#">Domov</a>
 			<a href="#about">O nas</a>
 			<a href="#solution">Naša rešitev</a>
-			<a href="#donate">Doniraj</a>
+			<a href="https://www.paypal.com/donate/?hosted_button_id=T9EP9SQ867KBE" target="_blank">Doniraj</a>
 		</div>
 	</div>
 </header>
+<script>
+	document.addEventListener('scroll', () => {
+	if (document.body.scrollTop > 80) {
+	document.getElementById("frame-header").style.backgroundColor = "#909090ff";
+	} else {
+	document.getElementById("frame-header").style.backgroundColor = "#aaaaaa82";
+	}
+	});
+</script>
+<noscript>
+	<style>
+#frame-header{
+	background-color: #909090ff;
+}
+	</style>
+</noscript>
 <span id=""></span>
 <span id="home"></span>
 <span id="about"></span>
@@ -47,7 +63,7 @@
 <br>
 
 <a href="#about", style="text-decoration:none;color:#fff;">
-	<div style="background-color:#FFA600B3;padding-top:16px;padding-bottom:16px;padding-right:30px;padding-left:30px;margin:auto;">
+	<div class="obtn button">
 	SODELUJ
 	</div>
 </a>
@@ -79,7 +95,7 @@
 	</div>
 	<br>
 	<a href="#solution", style="text-decoration:none;color:#fff;">
-		<div style="background-color:#0274be;padding-top:16px;padding-bottom:16px;padding-right:30px;padding-left:30px;margin:auto;">
+		<div class="bbtn button">
 			Naša rešitev
 		</div>
 	</a>
@@ -150,7 +166,7 @@
 		</div>
 		<br>
 		<a href="#solution", style="text-decoration:none;color:#fff;">
-			<div style="background-color:#0274be;padding-top:16px;padding-bottom:16px;padding-right:30px;padding-left:30px;margin:auto;">
+			<div class="bbtn button">
 				Naša rešitev
 			</div>
 		</a>
@@ -272,8 +288,8 @@
 			</a>
 		</div>
 		<br><br><br>
-		<a href="#donate", style="text-decoration:none;color:#fff;">
-			<div style="background-color:#00E160;padding-top:16px;padding-bottom:16px;padding-right:30px;padding-left:30px;margin:auto;">
+		<a href="https://www.paypal.com/donate/?hosted_button_id=T9EP9SQ867KBE" target="_blank" style="text-decoration:none;color:#fff;">
+			<div class="gbtn button">
 				Doniraj
 			</div>
 		</a>
